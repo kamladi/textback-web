@@ -1,0 +1,28 @@
+{% extends "templates/layout.html" %}
+{% block content %}
+<style type="text/css">
+		body {
+			background-image:url(../static/img/bg.jpg);
+			//background-size:1950px auto;
+			background-repeat:no-repeat;
+			background-position:0px -150px;
+		}
+
+		#yolo {
+			background-color: rgba(255,255,255,0.75);
+			border-radius: 25px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+</style>
+	<div class="row" id="main">
+		<div id="yolo">
+		<form action="/newUser" method="POST" class="span1">
+			<h3>Register</h3>
+			<p><input name="phone" type="tel" placeholder="1234567890"></p>
+			<p><input type="text" name="password" placeholder="password"></p>
+			<p><input type="submit" value="Register" class="btn btn-success"></p>
+		</form>
+	</div>
+	</div>
+{% endblock %}
