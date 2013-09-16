@@ -29,10 +29,4 @@ Running
 -------
 
 To run the app locally (e.g. for testing), download the Google App
-Engine SDK from http://code.google.com/appengine/downloads.html.  You
-can then run the server using
-
-  make serve
-
-(assuming you're on Linux or Mac OS X).  On Windows just use Google
-App Engine Launcher.
+Engine SDK from http://code.google.com/appengine/downloads.html.
